@@ -110,6 +110,7 @@ ipython_config.py
 # Sensitive / Local configuration
 .env
 .env.*
+!.env.example
 .venv
 venv/
 ENV/
