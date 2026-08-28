@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quickbooks-paystub-splitter"
+version = "1.0.0"
+description = "Splits standard QuickBooks paystub PDF files into individual files per employee."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Jon Hassall", url = "https://github.com/jonhassall" }
+]
+dependencies = [
+    "pymupdf",
+    "pillow",
+    "python-dotenv",
+]
